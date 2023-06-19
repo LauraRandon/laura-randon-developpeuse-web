@@ -245,7 +245,7 @@ const cardItems=[
             "REACT ",
         ],
         "guide": "Autonomie",
-        "lienSite": "https://laura-randon-developpeuse-p6u59su9r-laurarandon.vercel.app/home",
+        "lienSite": "https://laura-randon-developpeuse-web.vercel.app/",
         "lienGithub": "https://github.com/LauraRandon/laura-randon-developpeuse-web",
     },
 
