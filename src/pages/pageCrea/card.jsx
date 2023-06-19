@@ -1,11 +1,8 @@
 import React from "react";
-import { useParams } from 'react-router-dom';
 
 
-const Card = ({ title, cover, name, guide, language }) => {
 
-    const { id } = useParams()
-
+const Card = ({ id, title, cover, name, guide, language }) => {
 
     return(
         <div key={id} className="container-crea">
