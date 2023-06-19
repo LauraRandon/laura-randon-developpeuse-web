@@ -59,15 +59,7 @@
     font-size: 14px;
     text-shadow: 0.1em 0.1em 0.2em rgba(73, 81, 72, 0.3);
 }
-.creation-info-guide::before {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    margin: 6px;
-    width: 30px;
-    height: 30px;
-    background: url(../../assets/img/icon-guide.png) center center / 30px 30px no-repeat;
-}
+
 .article-creation-content {
     width: 90%;
     margin: 20px auto;
@@ -84,26 +76,47 @@
 .article-creation-link {
     width: 90%;
     margin: 40px auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    text-align: center;
 }
-.creation-link-site, .creation-link-github {
-    color: #738172;
-    font-weight: 600;
-    font-size: 16px;
-    border-radius: 50px;
-    padding: 25px 45px;
-    background: linear-gradient(170deg, #cecaca66, #cecaca9b);
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.2));
-    transition: all .2s ease-in-out;
-}
-.creation-link-site:hover, .creation-link-github:hover { 
-    transform: scale(1.05);
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.6)); 
-    opacity: 90%;
+.div-creation-link {
+    margin: 80px 0;
 }
 
+@media screen and (min-width: 430px) {
+    .creation-info-guide::before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        margin: 6px;
+        width: 30px;
+        height: 30px;
+        background: url(../../assets/img/icon-guide.png) center center / 30px 30px no-repeat;
+    }
+}
+@media screen and (min-width: 515px) {
+    .creation-link-site, .creation-link-github {
+        color: #738172;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 50px;
+        padding: 25px 45px;
+        background: linear-gradient(170deg, #cecaca66, #cecaca9b);
+        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.2));
+        transition: all .2s ease-in-out;
+    }
+    .creation-link-site:hover, .creation-link-github:hover { 
+        transform: scale(1.05);
+        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.6)); 
+        opacity: 90%;
+    }
+}
+@media screen and (min-width: 970px) {
+    .article-creation-link {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
 @media screen and (min-width: 820px) {
     h2 {
         text-align: left;

@@ -53,10 +53,10 @@ const CreationPage = () => {
                 </div>
             </article>
             <article className='article-creation-link'>
-                <div>
+                <div className='div-creation-link'>
                     <a href={creation.lienSite} target='_blank' rel='noreferrer' className='creation-link-site'>Parcourir le site web</a>
                 </div>
-                <div>
+                <div className='div-creation-link'>
                     <a href={creation.lienGithub} target='_blank' rel='noreferrer' className='creation-link-github'>Parcourir le code sur Github</a>
                 </div>
             </article>

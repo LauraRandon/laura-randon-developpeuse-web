@@ -174,7 +174,7 @@ const cardItems=[
             "Remarques : L'étudiant a fourni des livrables de qualités en conformité avec les exigences du projet. Le projet est donc validé. Toutes mes félicitations et bonne continuation pour la suite.👏👏👏👏👏👏👏",
         ],
         "language": [
-            "JavaScript ",
+            "JS ",
         ],
         "guide": "OpenClassRooms",
         "lienSite": "",
@@ -196,7 +196,7 @@ const cardItems=[
             "Remarques : Très bonne présentation et fluidité dans la communication. Le code a bien été expliqué après la réalisation des tests des fonctionnalités implémentées. Le volet sécurité a bien été mis en avant avec la présentation des outils et méthodes utilisées pour la renforcer. Les problèmes soulevés pendant la présentation ont bien été corrigés dans le délai demandé. Bonne acquisition des compétences.",
         ],
         "language": [
-            "JavaScript ",
+            "JS ",
             "API Rest ",
             "Cybersécurité ",
         ],

@@ -1,6 +1,12 @@
 import React from "react";
+import { useParams } from 'react-router-dom';
 
-const Card = ({ id, title, cover, name, language, guide }) => {
+
+const Card = ({ title, cover, name, guide, language }) => {
+
+    const { id } = useParams()
+
+
     return(
         <div key={id} className="container-crea">
             <main className="crea">
@@ -13,7 +19,11 @@ const Card = ({ id, title, cover, name, language, guide }) => {
                         <h4 className="card-name">{name}</h4>
                     </div>
                     <div className="card-footer">
-                        <p className="card-language">{language}</p>
+                        <p className="card-language">
+                        {language.map((languages, i) => (
+                            <p key={i}> {languages} </p>
+                        ))}
+                        </p>
                         <p className="card-guide">{guide}</p>
                     </div>
                 </a>   
