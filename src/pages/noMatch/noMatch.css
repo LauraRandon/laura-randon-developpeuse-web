@@ -5,24 +5,25 @@
     .error_page_link {
       margin-top: 5rem !important; 
     } 
-    }
+}
     
-    .error_page {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin-top: 3rem;
-      padding: 1rem; 
-    }
-      
-    .error_page_title {
-      font-size: 250px;
-      margin: 0; 
-    }
-    
-    .error_page_link {
-      margin-top: 3rem;
-      margin-bottom: 1.7rem;
-      text-decoration: underline; 
-    }
+.error_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem; 
+}
+  
+.error_page_title {
+  font-size: 250px;
+  margin: 0; 
+  color: #738172;
+}
+
+.error_page_link {
+  margin-top: 3rem;
+  margin-bottom: 1.7rem;
+  text-decoration: underline; 
+}
