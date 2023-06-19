@@ -229,7 +229,7 @@ const cardItems=[
     {
         "id": "11",
         "title": "Mon portfolio v2",
-        "name": "Laura Randon - Développeuse web",
+        "name": "Laura developpeuse web",
         "cover": "https://laurarandon.github.io/portfolio-laura-randon/img/mon-portfolio-v2-by-laura-randon.png",
         "description": [
             "Dans le cadre de ma recherche d'emploi, ainsi qu'en connaissance de la nécessité d'avoir son portfolio pour ce domaine, j'ai développé une nouvelle version de mon portfolio. J'ai donc créé mon application REACT en totale autonomie en m'appuyant sur les compétences que j'ai pu acquérir au cours de ma formation.",
@@ -245,7 +245,7 @@ const cardItems=[
             "REACT ",
         ],
         "guide": "Autonomie",
-        "lienSite": "https://kasa-rust.vercel.app/home",
+        "lienSite": "https://laura-randon-developpeuse-p6u59su9r-laurarandon.vercel.app/home",
         "lienGithub": "https://github.com/LauraRandon/laura-randon-developpeuse-web",
     },
 
