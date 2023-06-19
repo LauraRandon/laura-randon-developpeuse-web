@@ -1,0 +1,155 @@
+
+.deco-h2 {
+    content: '';
+    display: block;
+    height: 1.5px;
+    width: 20%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background: black;
+    text-align: center;
+}
+.div-creation {
+    width: 90%;
+    margin: auto;
+}
+.container-crea {
+    margin: 20px 60px 0px 60px;
+}
+.card {
+    margin-bottom: 15px;
+}
+.card-title {
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #738172;
+    text-shadow: 0.1em 0.1em 0.2em rgba(73, 81, 72, 0.3);
+}
+.fullwidth {
+    border: solid 1px #738172;
+    border-radius: 3px;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0 0 5px rgba(0,0,0,.18);
+}
+.fullwidth:hover {
+    filter: brightness(30%);
+}
+.card-div-name {
+    display: block;
+}
+.card-name {
+    text-align: center;
+    font-family: Gistesy, sans-serif;
+    text-transform: none;
+    font-size: 35px;
+    margin: 10px 10px;
+    padding-top: 20px;
+    transition: color 0.3s;
+}
+.card-name:hover {
+    color: #738172;
+}
+.card-content {
+    text-align: justify;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    text-transform: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+}
+.card-footer {
+    border-top: solid 2px #738172;
+    display: flex;
+    padding: 0 10px;
+    font-size: 12px;
+    align-items: center;
+}
+.card-language {
+    margin: 10px 0;
+    width: 45%;
+}
+.card-guide::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin: 6px;
+    width: 30px;
+    height: 30px;
+    background: url(../../assets/img/icon-guide.png) center center / 30px 30px no-repeat;
+}
+.card-guide {
+    width: 60%;
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 706px) {
+    .header-nav a {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 820px) {
+    h2 {
+        text-align: left;
+        padding-left: 20px;
+    }
+    #contact {
+        margin-top: 0px;
+    }
+    .deco-h2 {
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width: 800px) {
+    .div-creation {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 90%;
+        margin: auto;
+    }
+    .container-crea {
+        width: 48%;
+        margin: 0;
+    }
+    .fullwidth {
+        height: 210px;
+    }
+}
+@media screen and (min-width: 1170px) {
+    .div-creation {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 90%;
+        margin: auto;
+    }
+    .container-crea {
+        margin: 0;
+        width: 30%;
+    }
+    
+    .card {
+        width: 660px;
+    }
+    .card-body {
+        height: auto;
+    }
+    .fullwidth {
+        height: 210px;
+    }
+}
+
